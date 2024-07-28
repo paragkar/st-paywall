@@ -12,5 +12,6 @@ add_auth(
     login_sidebar=True,
 )
 
+
 st.write("Congrats, you are subscribed!")
 st.write("the email of the user is " + str(st.session_state.email))
